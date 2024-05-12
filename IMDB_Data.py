@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-
+# Direct url for top 250 IMDB movies
 URL = "https://m.imdb.com/chart/top/"
 
 driver = webdriver.Chrome()

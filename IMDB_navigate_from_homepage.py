@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from selenium.webdriver.common.by import By
 import time
+
+# URL for homepage of IMDB
 URL = "https://m.imdb.com/?ref_=nv_home"
 
 chrome_options = webdriver.ChromeOptions()
