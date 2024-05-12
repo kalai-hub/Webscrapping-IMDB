@@ -1,7 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import requests
-import urllib.request
+
 
 URL = "https://m.imdb.com/chart/top/"
 
